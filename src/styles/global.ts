@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
 *{
     margin: 0;
     padding: 0;
-    box-shadow: border-box;
+    box-shadow: 0px;
 }
 
 
@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    background: #457b1b url(${imgbackgroud}) no-repeat 75% top ;
+    background:#dac435  url(${imgbackgroud}) no-repeat 85%  ;
     
     -wekit-font-smoothing: antialiased;
 }
@@ -30,9 +30,9 @@ body, input, textarea, select, button {
 }
 
 #root{
-    max-width: 1350px;
-    margin: 10px auto;
-    padding: 3rem 2rem;
+    max-width: inherit;
+    margin: 0px auto;
+    padding: 0rem 0rem;
 }
 
 button{
